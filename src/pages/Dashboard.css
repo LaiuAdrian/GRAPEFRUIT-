@@ -1,0 +1,338 @@
+
+.box1{
+    display: flex;
+    }
+
+.imgW25{
+    background-repeat: no-repeat;
+      background-size: cover;
+      height: 350px;
+}
+.box1_1{
+padding-top: 18%;
+padding-left:40px;
+}
+h1,h2{
+    color: white;
+}
+.box1_1 p{
+    color: white;
+    font-weight: bold;
+}
+.dflex{
+    display: flex;
+}
+.wIcon{
+    width: 18px;
+    height: 18px;
+    margin: auto;
+    padding-right: 15px;
+}
+.timeIcon{
+    margin-left: 24px;
+}
+.last{
+        margin-left: auto;
+        border-bottom: 2px solid white;
+        margin-right: 25px;
+}
+.YellowBg{
+    background-color: #FFB236;
+    padding: 25px;
+    height: auto;
+}
+.gray{
+    color: #FFD99B;
+    font-size: 14px;
+}
+.dflex2{
+    display: flex;
+    justify-content: space-between;
+}
+.grade{
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0px;
+   margin-right: 20px;
+}
+
+
+.react-tabs {
+    display: block;
+    color: white;
+  }
+  
+  .react-tabs__tab-list {
+    display: flex;
+    color: white;
+    justify-content: end;
+
+  }
+  
+  .react-tabs__tab {
+    list-style: none;
+    padding: 12px 6px;
+    cursor: pointer;
+    color: #FFE0B1;
+  }
+  
+  .react-tabs__tab--selected {
+    border-color: #1c1d1f;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .react-tabs__tab-panel {
+    display: none;
+    font-size: 14px;
+  }
+  
+  .react-tabs__tab-panel--selected {
+    display: block;
+  }
+  
+  .react-tabs__tab {
+    padding: 11px;
+    font-size: 14px;
+  }
+  
+  .react-tabs__tab--selected {
+    padding: 11px;
+  }
+
+  .contentInfo{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 123px;
+  }
+ 
+  .pGrade{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .houres{
+ 
+    color: #FFD99B;
+    font-weight: normal;
+  }
+  .Grade_and_houres{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .info4{
+    -webkit-box-shadow: 19px 0px 26px -8px rgba(0,0,0,0.13);
+    -moz-box-shadow: 19px 0px 26px -8px rgba(0,0,0,0.13);
+    box-shadow: 19px 0px 26px -8px rgba(0,0,0,0.13);
+    padding: 15px 20px;
+  }
+ 
+  .blackNr{
+    font-weight: bold;
+    font-size: 19px;
+    color: black;
+  }
+  .grayCol{
+    color: #B2B2B2;
+    font-size: 16px;
+  }
+
+  .redNegative{
+    color: #FF3538 ;
+  }
+  .greenPozitive{
+    color: #64D835 ;
+  }
+  .borderT{
+    border-top: 1px solid #E5E5E5;
+  }
+  .active{
+    background-color: #F8F8F8;
+  }
+  
+
+
+
+  /* Mobile */
+  @media only screen and (max-width: 600px) {
+     .Widgets_Div{
+      display: block;
+      background-color: #f96331;
+      display: flex;
+      justify-content: center;
+      border-top: 1px solid white;
+    }
+    .Widgets_Div p{
+      font-size: 32px;
+      color: white;
+      font-weight: bold;
+    }
+    .flexSec{
+      display: flex;
+    }
+    .valNR{
+      font-weight: bold;
+      font-size: 36px;
+      margin: 0px;
+      padding-left: 15px;
+    }
+    .wIcon20{
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .flexM{
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 20px;
+    }
+    .col50M{
+      width: 50%;
+      display: inline-grid;
+    }
+    .col20{
+      width: 20%;
+    }
+    .col80{
+      width: 100%;
+    }
+    .react-tabs {
+      margin-left: 0px;
+    }
+    .contentInfo h2{
+      padding-top: 0px;
+    }
+    .mtMob{
+      margin-top: 0px;
+    }
+    .houres{
+      font-size: 12px;
+    }
+    .pGrade{
+      padding: 0px 4px;
+      font-size: 13px;
+    }
+    .nori{
+      position: absolute;
+      top: 165px;
+      width: 60px;
+    }
+    .grade{
+      font-size: 55px;
+  }
+    .mobilShow{
+      display: block;
+  }
+  .mobilHide{
+    display: none;
+  }
+    .box1{
+      display: block;
+      }
+      .col50{
+        width: 100%;
+        max-height: 350px;
+    }
+  }
+  /*IPAD */
+  @media only screen and (min-width: 768px) {
+    .valNR{
+      font-weight: bold;
+      font-size: 25px;
+ 
+    }
+    .flex2{
+      display: block;
+      justify-content: space-between;
+      padding: 0px 50px;
+    }
+    .info4{
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    .col20{
+      width: 100%;
+    }
+    .col80{
+      width: 100%;
+    }
+    .react-tabs {
+      margin-left: 35px;
+    }
+    .contentInfo h2{
+      padding-top: 40px;
+    }
+    .pGrade{
+      font-size: 22px;
+    }
+    .nori{
+      position: absolute;
+      top: 100px;
+    }
+    .grade{
+      font-size: 85px;
+  }
+    .mobilShow{
+      display: none;
+    }
+    .mobilHide{
+      display: block;
+    }
+    .box1{
+      display: block;
+      }
+      .col50{
+        width: 100%;
+        max-height: 350px;
+    }
+    .tablet_hide{
+      display: none;
+    }
+    .Widgets_Div{
+      display: none;
+    }
+
+  }
+
+
+
+
+
+   /*/desktops*/
+   @media only screen and (min-width: 1200px) {
+    .flex2{
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 30px;
+    }
+    .info4{
+      padding: 15px 20px;
+      display: block;
+    }
+    .tablet_hide{
+      display: block;
+    }
+    .box1{
+      display: flex;
+      }
+      .col50{
+        width: 50%;
+        max-height: 350px;
+    }
+    .col20{
+      width: 20%;
+    }
+    .col80{
+      width: 80%;
+    }
+  
+   }
+ 
+
+
+  
